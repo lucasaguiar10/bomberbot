@@ -132,7 +132,13 @@ def main_loop():
     click(box)
     time.sleep(0.5)
 
-    # ENTER ADVENTURE MODE/dis
+    # ENTER ADVENTURE MODE
+
+    box = wait_until_present(5, adventure_img)
+    time.sleep(0.5)
+    click(box)
+
+    # GET AND FORWARD WALLET VALUE
 
     # TODO
 
